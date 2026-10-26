@@ -1,0 +1,20 @@
+# Secrets and sign-in data: never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+profiles/
+.auth/
+
+# Captured meeting audio and video: never commit
+captures/
+
+# Dependencies and build output
+node_modules/
+dist/
+.venv/
+__pycache__/
+
+# OS
+.DS_Store
